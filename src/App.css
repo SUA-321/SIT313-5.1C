@@ -1,0 +1,107 @@
+/* Header */
+.header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* JobTypeRadio Component */
+.job-type-container {
+  margin-bottom: 20px;
+}
+
+/* JobDescriptionForm Component */
+.job-description-container {
+  margin-bottom: 20px;
+}
+.job-description-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+.section {
+  margin-bottom: 20px;
+}
+.field {
+  margin-bottom: 10px;
+}
+.field label {
+  display: block;
+  margin-bottom: 5px;
+}
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ProjectConditionsForm Component */
+.project-conditions-container {
+  margin-bottom: 20px;
+}
+.project-conditions-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ExperienceForm Component */
+.experience-container {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+.experience-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.experience-field {
+  margin-bottom: 10px;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+
+.app-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  padding: 20px; /* Add padding to create spacing */
+}
+
+/* Container that wraps the content inside */
+.content-container {
+  max-width: 800px; /* Set a max-width for the content */
+  width: 100%;
+  background-color: #f5f5f5; /* Optional: Add a background color */
+  padding: 20px; /* Add padding to the content */
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+.field {
+  display: flex;
+  align-items: center; /* Align label and input vertically */
+  margin-bottom: 10px;
+}
+.field label {
+  flex-basis: 150px; /* Adjust this width as needed */
+  margin-right: 10px;
+}
+.field input {
+  flex: 1; /* Take up remaining width */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.payment-fields {
+  display: flex;
+  gap: 10px;
+}
+
